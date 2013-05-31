@@ -3,11 +3,11 @@
     <string name="hello_world">Hello world!</string>
     
     <string name="title_activity_main">SmartTags Writer</string>
-    <string name="info_detected">NFC标签已连接，请保持连接并选择标签颜色！</string>
+    <string name="info_detected">已检测到NFC，请保持接触并选择要创建的标签颜色！</string>
     <string name="info_detected_error">无法检测到NFC标签</string>
-    <string name="info_writed">SmartTags创建成功！</string>
-    <string name="info_write_fail">SmartTags创建失败！请确定此标签可写！</string>
-    <string name="info_touch">将可擦写的NFC标签靠近手机</string>
+    <string name="info_writed">恭喜！SmartTags创建成功！</string>
+    <string name="info_write_fail">SmartTags创建失败！此NFC标签可能不可写。</string>
+    <string name="info_touch">请将可擦写的NFC标签靠近手机后盖NFC区</string>
     <string name="info_writing">写入中，请勿移开标签！</string>
     <string name="info_nfcdisabled">请打开NFC功能</string>
     <string name="info_nonfc">您的手机不支持NFC功能</string>
@@ -15,8 +15,8 @@
     <string name="menu_about">关于</string>
     <string name="menu_share">分享</string>
     <string name="menu_help">帮助</string>
-    <string name="btn_share">发微博分享下吧</string>
-    <string name="info_share">我使用SmartTags Writer成功创建了索尼智能标签！软件介绍及下载地址: http://code.google.com/p/smarttags-writer/downloads/list @忘了时间反方向的钟</string>
+    <string name="btn_share">发个微博分享下吧</string>
+    <string name="info_share">我使用SmartTags Writer成功创建了索尼智能标签！软件介绍及下载地址: http://apk.gfan.com/Product/App335294.html @不二钟 </string>
     <string name="url_help">http://code.google.com/p/smarttags-writer/wiki/help</string>
     <string name="url_about">http://code.google.com/p/smarttags-writer/wiki/about</string>
     <string name="warn_nopic">PIC</string>

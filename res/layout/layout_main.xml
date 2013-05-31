@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:background="#FFFFFF"
+                android:background="#00000000"
                 android:onClick="writeBlue"
                 android:src="@drawable/blue2"
                 android:contentDescription="@string/warn_nopic" />
@@ -29,7 +29,7 @@
                 android:id="@+id/btRed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF"
+                android:background="#00000000"
                 android:onClick="writeRed"
                 android:src="@drawable/red2" 
                 android:contentDescription="@string/warn_nopic" />
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:background="#FFFFFF"
+                android:background="#00000000"
                 android:onClick="writeBlack"
                 android:src="@drawable/black2" 
                 android:contentDescription="@string/warn_nopic" />
@@ -64,7 +64,7 @@
                 android:id="@+id/btWhite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF"
+                android:background="#00000000"
                 android:onClick="writeWhite"
                 android:src="@drawable/white2" 
                 android:contentDescription="@string/warn_nopic" />

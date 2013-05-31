@@ -18,16 +18,12 @@ public final class R {
         public static final int pic_size=0x7f040003;
     }
     public static final class drawable {
-        public static final int black=0x7f020000;
-        public static final int black2=0x7f020001;
-        public static final int blue=0x7f020002;
-        public static final int blue2=0x7f020003;
-        public static final int ic_action_search=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int red=0x7f020006;
-        public static final int red2=0x7f020007;
-        public static final int white=0x7f020008;
-        public static final int white2=0x7f020009;
+        public static final int black2=0x7f020000;
+        public static final int blue2=0x7f020001;
+        public static final int ic_action_search=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int red2=0x7f020004;
+        public static final int white2=0x7f020005;
     }
     public static final class id {
         public static final int btBlack=0x7f080004;
