@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">SmartTags Writer</string>
+    <string name="btn_share">Share the APP</string>
+    <string name="hello_world">Hello, World!</string>
+    <string name="info_detected">Detect a NFC tag, Please keep touch and select the color!</string>
+    <string name="info_detected_error">Can\'t detect a NFC</string>
+    <string name="info_nfcdisabled">Please enable NFC function</string>
+    <string name="info_nonfc">Your phone donot support NFC</string>
+    <string name="info_share">A good APP help you to create SONY Smarttags. Please search \"SmartTags Writer\" in Google Play to download.</string>
+    <string name="info_touch">Please take a writable NFC tag close to your phone.</string>
+    <string name="info_write_fail">Create SmartTags Fail! Please make sure the NFC tag is writeable.</string>
+    <string name="info_writed">Create Succefully!</string>
+    <string name="info_writing">Writing..Donot take away!</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_share">Share</string>
+    <string name="title_activity_main">SmartTags Writer</string>
+    <string name="url_help">http://code.google.com/p/smarttags-writer/wiki/help</string>
+    <string name="url_about">http://code.google.com/p/smarttags-writer/wiki/about</string>
+    <string name="warn_nopic">PIC</string>
+
+</resources>
