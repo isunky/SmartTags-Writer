@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="80dp"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -76,9 +76,12 @@
         android:id="@+id/tvDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:layout_below="@+id/linearLayout2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
+        android:layout_marginBottom="30dp"
         android:text="@string/info_touch"
         android:textSize="@dimen/font_size" />
 

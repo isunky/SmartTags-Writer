@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">SmartTags Writer</string>
-    <string name="hello_world">Hello world!</string>
-    
     <string name="title_activity_main">SmartTags Writer</string>
-    <string name="info_detected">已检测到NFC，请保持接触并选择要创建的标签颜色！</string>
+    <string name="info_detected">侦测到NFC标签，请保持接触并选择标签颜色！</string>
     <string name="info_detected_error">无法检测到NFC标签</string>
     <string name="info_writed">恭喜！SmartTags创建成功！</string>
     <string name="info_write_fail">SmartTags创建失败！此NFC标签可能不可写。</string>
-    <string name="info_touch">请将可擦写的NFC标签靠近手机后盖NFC区</string>
+    <string name="info_touch">请将可写的NFC标签靠近手机后盖NFC区</string>
     <string name="info_writing">写入中，请勿移开标签！</string>
     <string name="info_nfcdisabled">请打开NFC功能</string>
     <string name="info_nonfc">您的手机不支持NFC功能</string>

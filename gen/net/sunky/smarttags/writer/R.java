@@ -47,25 +47,24 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int btn_share=0x7f05000f;
-        public static final int hello_world=0x7f050001;
-        public static final int info_detected=0x7f050003;
-        public static final int info_detected_error=0x7f050004;
-        public static final int info_nfcdisabled=0x7f050009;
-        public static final int info_nonfc=0x7f05000a;
-        public static final int info_share=0x7f050010;
-        public static final int info_touch=0x7f050007;
-        public static final int info_write_fail=0x7f050006;
-        public static final int info_writed=0x7f050005;
-        public static final int info_writing=0x7f050008;
-        public static final int menu_about=0x7f05000c;
-        public static final int menu_exit=0x7f05000b;
-        public static final int menu_help=0x7f05000e;
-        public static final int menu_share=0x7f05000d;
-        public static final int title_activity_main=0x7f050002;
-        public static final int url_about=0x7f050012;
-        public static final int url_help=0x7f050011;
-        public static final int warn_nopic=0x7f050013;
+        public static final int btn_share=0x7f05000e;
+        public static final int info_detected=0x7f050002;
+        public static final int info_detected_error=0x7f050003;
+        public static final int info_nfcdisabled=0x7f050008;
+        public static final int info_nonfc=0x7f050009;
+        public static final int info_share=0x7f05000f;
+        public static final int info_touch=0x7f050006;
+        public static final int info_write_fail=0x7f050005;
+        public static final int info_writed=0x7f050004;
+        public static final int info_writing=0x7f050007;
+        public static final int menu_about=0x7f05000b;
+        public static final int menu_exit=0x7f05000a;
+        public static final int menu_help=0x7f05000d;
+        public static final int menu_share=0x7f05000c;
+        public static final int title_activity_main=0x7f050001;
+        public static final int url_about=0x7f050011;
+        public static final int url_help=0x7f050010;
+        public static final int warn_nopic=0x7f050012;
     }
     public static final class style {
         public static final int AppTheme=0x7f060000;

@@ -152,8 +152,11 @@ public class MainAct extends Activity {
 			if (TagNfc == null) {
 				tvShow.setText(Ctx.getString(R.string.info_detected_error));
 			} else {
+				boolean bOK;
 				tvShow.setText(Ctx.getString(R.string.info_writing));
-				writeNfc(strNfcMsg, TagNfc);
+				bOK = writeNfc(strNfcMsg, TagNfc);
+				if (!bOK)
+					return;
 				tvShow.setText(Ctx.getString(R.string.info_writed));
 				tvShow.performHapticFeedback(
 						HapticFeedbackConstants.LONG_PRESS,
@@ -170,15 +173,21 @@ public class MainAct extends Activity {
 		}
 	}
 
-	private void writeNfc(String strNfcMsg, Tag tagNfc) throws IOException,
+	private boolean writeNfc(String strNfcMsg, Tag tagNfc) throws IOException,
 			FormatException {
 		NdefRecord[] ndefRecord = { createNdefUriRecord(strNfcMsg) };
 		NdefMessage ndefMsg = new NdefMessage(ndefRecord);
 
 		Ndef ndef = Ndef.get(tagNfc);
+		if (ndef == null) {
+			tvShow.setText(Ctx.getString(R.string.info_write_fail));
+			return false;
+		}
 		ndef.connect();
 		ndef.writeNdefMessage(ndefMsg);
 		ndef.close();
+		
+		return true;
 	}
 
 	private NdefRecord createNdefUriRecord(String strNfcMsg)
