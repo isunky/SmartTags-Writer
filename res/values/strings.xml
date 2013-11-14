@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">SmartTags Writer</string>
-    <string name="title_activity_main">SmartTags Writer</string>
-    <string name="info_detected">侦测到NFC标签，请保持接触并选择标签颜色！</string>
+    <string name="app_name">智能标签刻录机</string>
+    <string name="title_activity_main">智能标签刻录机</string>
+    <string name="info_detected">侦测到NFC标签，请勿移开并选择标签颜色！</string>
     <string name="info_detected_error">无法检测到NFC标签</string>
-    <string name="info_writed">恭喜！SmartTags创建成功！</string>
-    <string name="info_write_fail">SmartTags创建失败！此NFC标签可能不可写。</string>
+    <string name="info_writed">恭喜！智能标签创建成功！</string>
+    <string name="info_write_fail">此NFC标签可能不可写.换个试试吧！</string>
     <string name="info_touch">请将可写的NFC标签靠近手机后盖NFC区</string>
     <string name="info_writing">写入中，请勿移开标签！</string>
     <string name="info_nfcdisabled">请打开NFC功能</string>
@@ -13,8 +13,8 @@
     <string name="menu_about">关于</string>
     <string name="menu_share">分享</string>
     <string name="menu_help">帮助</string>
-    <string name="btn_share">发个微博分享下吧</string>
-    <string name="info_share">我使用SmartTags Writer成功创建了索尼智能标签！软件介绍及下载地址: http://apk.gfan.com/Product/App335294.html @不二钟 </string>
+    <string name="btn_share">分享给小伙伴们</string>
+    <string name="info_share">我使用【智能标签刻录机】成功创建了索尼智能标签！软件介绍及下载地址: http://apk.gfan.com/Product/App335294.html @207999608 </string>
     <string name="url_help">http://code.google.com/p/smarttags-writer/wiki/help</string>
     <string name="url_about">http://code.google.com/p/smarttags-writer/wiki/about</string>
     <string name="warn_nopic">PIC</string>
